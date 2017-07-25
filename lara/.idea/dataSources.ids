@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - lara@localhost" uuid="cf20d9cc-7ba8-40f6-b2f2-8dfee1d0caf4">
+    <database-info product="MySQL" version="5.5.50" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="lara">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="blog"/>
+      <schema id="3" name="blog1"/>
+      <schema id="4" name="information_schema"/>
+      <schema id="5" name="laravel"/>
+      <schema id="6" name="login"/>
+      <schema id="7" name="mm"/>
+      <schema id="8" name="mvc"/>
+      <schema id="9" name="myshop"/>
+      <schema id="10" name="mysql"/>
+      <schema id="11" name="p2p"/>
+      <schema id="12" name="performance_schema"/>
+      <schema id="13" name="php"/>
+      <schema id="14" name="phpmyadmin"/>
+      <schema id="15" name="qinghua"/>
+      <schema id="16" name="restf"/>
+      <schema id="17" name="shop"/>
+      <schema id="18" name="test"/>
+      <schema id="19" name="tieba"/>
+      <schema id="20" name="tp"/>
+      <schema id="21" name="tpshop"/>
+      <schema id="22" name="tpshop2"/>
+      <schema id="23" name="wx"/>
+      <table id="24" parent="1" name="students"/>
+      <column id="25" parent="24" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="26" parent="24" name="name">
+        <mandatory>1</mandatory>
+        <data-type>char(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="27" parent="24" name="age">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="28" parent="24" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
